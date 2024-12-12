@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+
+  body {
+    line-height: 1.6;
+  }
+
+  .navbar {
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 1rem 2rem;
+    color: black;
+  }
+
+  .logo {
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+
+  .logo img{
+    size: 1.3rem;
+  }
+
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+
+  .nav-links li {
+    margin: 0 1rem;
+  }
+
+  .nav-links a {
+    text-decoration: none;
+    color:black;
+  }
+
+  .signin-btn {
+    background-color: black;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  .container img {
+   position: relative;
+   left: 600px;
+   padding: 0;
+   margin: 0;
+ }
+
+.hero-text{
+    position: relative;
+    bottom: 500px;
+}
+
+.hero-text h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    bottom: 70px;
+    padding-left: 40px;
+    margin-bottom: 40px;
+    font-size: xx-large;
+    word-spacing: normal;
+}
+
+.hero-text p {
+    padding-left: 40px;
+    position: relative;
+    bottom: 100px;
+    font-family:Helvetica
+
+}
+.button-img{
+    cursor: pointer;
+    position: relative;
+    max-width: min-content;
+    width: 80px;
+    height: 200px;
+    bottom: 50px;
+    right: 600px;
+    padding-left: 30px;
+    margin-bottom: 100px;
+ 
+}
+
+
+.features-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .feature-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s;
+  }
+
+  .feature-card:hover {
+    transform: translateY(-5px);
+  }
+
+  .feature-card img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+  }
+
+  .feature-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+
+  .feature-card p {
+    font-size: 0.9rem;
+    color: #555;
+    line-height: 1.5;
+  }
+
+  .cards-section{
+    position: relative;
+    bottom: 500px;
+    padding-left: 100px;
+    justify-content: space-between;
+  }
+  .third-section img{
+    position:relative;
+    bottom: 500px;
+    width: 450px;
+    height: 450px;
+}
+
+.texting{
+    position: relative;
+    bottom: 880px;
+    left: 800px;
+}
+.texting h1{
+    font-size: xx-large;}
+
+.our-feature h1{
+    position: relative;
+    bottom: 750px;
+    text-align: center;
+    font-size: xx-large;
+}
+/* Section styling */
+.our-feature {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f8f8f8; /* Example background */
+  }
+  
+  .our-feature h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  /* Grid layout for the cards */
+  .six-cards {
+    position: relative;
+    bottom: 750px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates 3 equal-width columns */
+    gap: 20px; /* Adds spacing between the cards */
+    justify-items: center; /* Centers the cards horizontally */
+    margin: 0 auto; /* Centers the grid within the container */
+    max-width: 1200px; /* Optional: limits the width of the grid */
+  }
+  
+  .feature-card {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Adds shadow for card effect */
+    text-align: center;
+  }
+  
+  .feature-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .feature-card h3 {
+    font-size: 1.5rem;
+    margin: 15px 0;
+    color: #333;
+  }
+  
+  .feature-card p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+ .Last-section{ 
+    background-color: white;
+    position: relative;
+    bottom: 750px;
+    justify-content: space-between;
+ 
+ }
+ footer{ 
+    background-color: white;
+    position: relative;
+    bottom: 85px;
+
+ }
+
+ .rights{
+    position: relative;
+    bottom: 700px;
+ }
+
